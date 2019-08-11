@@ -1,0 +1,592 @@
+@import "reset.css";
+@import "fonts.css";
+body {
+  overflow-x: hidden;
+  background-color: black;
+  background-size: auto;
+  color: white;
+  transform: scaleX(1) scaleY(1);
+}
+.picone {
+  width: 976px;
+  height: 236px;
+}
+.firstpic {
+  position: absolute;
+
+  left: 40px;
+  top: 30px;
+}
+.pictwo {
+  width: 232px;
+  height: 130px;
+}
+.secondpic {
+  position: absolute;
+
+  left: 450px;
+  top: 330px;
+}
+.thirdpic {
+  position: absolute;
+
+  left: -400px;
+  top: 230px;
+}
+.picthree {
+  width: 987px;
+  height: 203px;
+}
+.leadingtext1 {
+  position: relative;
+
+  left: -80px;
+  top: 1120px;
+
+  font-size: 22px;
+  font-family: 'Circe Light';
+
+  font-style: normal;
+  font-weight: normal;
+}
+.manypills {
+  position: absolute;
+  z-index: -1;
+
+  left: 0px;
+  top: 700px;
+}
+.lottapills {
+  width: 721px;
+  height:1125.4px;
+}
+.mommyleader {
+  height: 1010.75px;
+  weight: 902.25px;
+}
+.mommyforleading {
+  position: absolute;
+  z-index: -1;
+
+  left: -660px;
+  top: 940px;
+}
+.header {
+position: absolute;
+
+left: -400px;
+top: 2775px;
+
+font-family: 'Circe Light';
+
+font-size: 25px;
+font-style: normal;
+font-weight: normal;
+}
+.header_big {
+  position: absolute;
+
+  left: -400px;
+  top: 2800px;
+
+  font-family: 'Circe Bold';
+
+  font-size: 55px;
+  font-style: normal;
+  font-weight: normal;
+}
+.story1picture {
+  height: 879.285714px;
+  weight: 493.285714px;
+}
+.story1pic {
+  position: absolute;
+
+  left: -650px;
+  top: 3200px;
+}
+.text {
+  position: absolute;
+  z-index: -1;
+
+  left: -400px;
+  top: 4000px;
+
+  font-family: 'Circe Light';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.data1 {
+  height: 300px;
+  weight: 300px;
+}
+.dataSource {
+  position: absolute;
+  z-index: -1;
+
+  left: 220px;
+  top: 4000px;
+}
+.miniNumber1 {
+  position: absolute;
+
+  left: 220px;
+  top: 4320px;
+
+  font-family: 'Circe Bold';
+
+  font-size: 35px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.miniText1 {
+  position: absolute;
+
+  left: 220px;
+  top: 4360px;
+
+  font-family: 'Circe Light';
+
+  font-size: 16px;
+  line-height: 20px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.link1 {
+  position: absolute;
+
+  left: 220px;
+  top: 4440px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 0.3;
+  font-weight: normal;
+}
+@keyframes opacity {
+  0% {
+      opacity: 0.3;
+  }
+  50% {
+      opacity: 0.7;
+  }
+  100% {
+      opacity:1;
+  }
+}
+.link1:hover {
+  animation: opacity 3s ease-in forwards;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.h2 {
+  position: absolute;
+
+  left: -400px;
+  top: 5000px;
+
+  font-family: 'Circe Bold';
+
+  font-size: 55px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h3 {
+  position: absolute;
+
+  left: -400px;
+  top: 4965px;
+
+  font-family: 'Circe Light';
+
+  font-size: 25px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h4 {
+  position: absolute;
+
+  left: -400px;
+  top: 5080px;
+
+  font-family: 'Circe Light';
+
+  font-size: 25px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.textStory2 {
+  position: absolute;
+
+  left: -400px;
+  top: 5400px;
+
+  font-family: 'Circe Light';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.pictureOneStoryTwo {
+  height: 733px;
+  weight: 379px;
+}
+.pictureOneStory2 {
+  position: absolute;
+  z-index: -1;
+
+  left: 0px;
+  top: 5300px;
+}
+.pictureTwoStoryTwo {
+  height: 633px;
+  weight: 279px;
+}
+.pictureTwoStory2 {
+  position: absolute;
+  z-index: -1;
+
+  left: -800px;
+  top: 5900px;
+}
+.dataSource2 {
+  position: fixed;
+
+  left: -1900px;
+  top: 6800px;
+}
+.h21 {
+  position: absolute;
+
+  left: -400px;
+  top: 7000px;
+
+  font-family: 'Circe Bold';
+
+  font-size: 55px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h31 {
+  position: absolute;
+
+  left: -400px;
+  top: 6965px;
+
+  font-family: 'Circe Light';
+
+  font-size: 25px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h41 {
+position: absolute;
+
+left: -400px;
+top: 7080px;
+
+font-family: 'Circe Light';
+
+font-size: 25px;
+
+font-style: normal;
+opacity: 1;
+font-weight: normal;
+}
+.textStory3 {
+  position: absolute;
+
+  left: -400px;
+  top: 7400px;
+
+  font-family: 'Circe Light';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.picOneStory3 {
+  position: absolute;
+  z-index: -1;
+
+  left: 120px;
+  top: 7100px;
+
+  transform: rotate(-65deg);
+}
+.picTwoStory3 {
+  position: absolute;
+  z-index: -1;
+
+  left: -1120px;
+  top: 7900px;
+
+  transform: rotate(20deg);
+}
+.dataStory3 {
+  position: relative;
+  z-index: 0;
+
+  left: 290px;
+  top: 7800px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.imagecontainer1 {
+  position: absolute;
+  z-index: -1;
+
+  left: -10200px;
+  top: 6500px;
+}
+.image {
+  position: absolute;
+
+  width: 1000px;
+  height: 50px;
+}
+.imagecontainer111 {
+  position: absolute;
+  z-index: -1;
+
+  left: -8600px;
+  top: 6600px;
+}
+.imagecontainer112 {
+  position: absolute;
+  z-index: -1;
+
+  left: -7150px;
+  top: 6700px;
+}
+.dataSource3 {
+  position: inherit;
+  z-index: 1;
+
+  left: 200px;
+  top: 6400px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.innerData3 {
+  position: absolute;
+  z-index: 1;
+
+  left: 460px;
+  top: 6506px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.innerData4 {
+  position: absolute;
+  z-index: 1;
+
+  left: 300px;
+  top: 6607px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.innerData5 {
+  position: absolute;
+  z-index: 1;
+
+  left: 0px;
+  top: 6707px;
+
+  font-family: 'Circe Light';
+
+  font-size: 12px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h441 {
+  position: absolute;
+
+  left: -400px;
+  top: 9065px;
+
+  font-family: 'Circe Light';
+
+  font-size: 25px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h42 {
+  position: absolute;
+
+  left: -400px;
+  top: 9100px;
+
+  font-family: 'Circe Bold';
+
+  font-size: 55px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.h43 {
+  position: absolute;
+
+  left: -400px;
+  top: 9180px;
+
+  font-family: 'Circe Light';
+
+  font-size: 25px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+
+
+.textStory4 {
+  position: absolute;
+
+  left: -400px;
+  top: 9500px;
+
+  font-family: 'Circe Light';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.pictureOneStory4 {
+  position: absolute;
+
+  left: -500px;
+  top: 9200px;
+}
+.pictureTwoStory4 {
+  position: absolute;
+
+  left: 200px;
+  top: 9600px;
+}
+.pictureStory4 {
+  width: 1382px;
+  height: 912px;
+}
+.secondPictureStory4 {
+  width: 867px;
+  height: 1079px;
+}
+.data4story {
+  position: absolute;
+  opacity: 1;
+
+  left: -400px;
+  top: 10510px;
+
+  font-family: 'Circe Light';
+
+  font-size: 16px;
+  line-height: 20px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+.secondTextStory4 {
+  position: absolute;
+
+  left: -400px;
+  top: 10150px;
+
+  font-family: 'Circe Light';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  font-style: normal;
+  opacity: 1;
+  font-weight: normal;
+}
+
+#pictureforme1 {
+  height: 10%;
+  width: -10%;
+
+}
+#container1 {
+  position: fixed;
+
+  width: 50px;
+  height: 50px;
+  left: 1200px;
+  top: 8500px;
+
+  transform: rotate(75deg);
+}
+#container {
+  height:15000px;
+  width: 400px;
+}
+.hideme {
+  opacity:0;
+}
